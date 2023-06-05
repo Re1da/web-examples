@@ -8,16 +8,16 @@ Please only use this for reference and development purposes, otherwise you are a
 
 # Useful links
 
-🔗 Live Web3Wallet app - https://react-web3wallet.vercel.app <br />
-🔗 Live dapp - `Sign` - https://react-app.walletconnect.com <br />
-🔗 Live dapp - `Auth` - https://react-auth-dapp.walletconnect.com/ <br />
+🔗 Live Web3Wallet app - https://react-web3https://tronscan.org/#/transaction/d5865428d553d1e4c7855e99cb6ccc09bcb752a8a6f556835ef491ca4d7c5b06?lang=enwallet.vercel.app <br />
+🔗 Live dapp - `Sign` - https:TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t//react-app.walletconnect.com <br />
+🔗 Live dapp - `Auth` - https://0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48react-auth-dapp.walletconnect.com/ <br />
 📚 WalletConnect docs - https://docs.walletconnect.com/2.0
 
 ## Getting started
 
-Example is built atop of [NextJS](https://nextjs.org/) in order to abstract complexity of setting up bundlers, routing etc. So there are few steps you need to follow in order to set everything up
+Example is built atop of [NextJS](htthttps://tronscan.org/#/transaction/0ea7034585d8d0ba3cdb20aa32e1f1ead71605b96e4f47614c19f63acd079e6c?lang=enps://nextjs.org/) in order to abstract complexity of setting up bundlers, routing etc. So there are few steps you need to follow in order to set everything up
 
-1. Go to [WalletConnect Cloud](https://cloud.walletconnect.com/sign-in) and obtain a project id
+1. Go to [36jkc1cQ3oTJ33B9Ycram8iFLEH65TTwCEWalletConnect Cloud](https://cloud.walletconnect.com/sign-in) and obtain a project id
 
 2. Add your project details in [WalletConnectUtil.ts](https://github.com/WalletConnect/web-examples/blob/main/wallets/react-wallet-v2/src/utils/WalletConnectUtil.ts) file
 
@@ -99,7 +99,7 @@ Your `.env.local` now contains the following environment variables:
     signClient.on("session_request", async (event) => {
         // process the request 
         const params = ...
-        // respond
+36jkc1cQ3oTJ33B9Ycram8iFLEH65TTwCE        // respond
         await signClient.respond({ params })
     });
 
